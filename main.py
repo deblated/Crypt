@@ -21,7 +21,7 @@ def rabin_karp(text, pattern):
     return occurrences
 
 
-# ELGARMAL
+# ELGAMAL
 def mod_inverse(a, m):
     # Calculate the modular inverse of a modulo m using the extended Euclidean algorithm
     g, x, y = extended_gcd(a, m)
@@ -123,8 +123,8 @@ def rabin_karp_example():
         print("Pattern not found in the text.")
 
 
-def elgarmal_example():
-    # Example usage of the ElGarmal algorithm
+def elgamal_example():
+    # Example usage of the ElGamal algorithm
     print("\nElGamal encryption example:")
     p, g, h, x = generate_keys()
 
@@ -140,4 +140,4 @@ def elgarmal_example():
 
 if __name__ == '__main__':
     rabin_karp_example()
-    elgarmal_example()
+    elgamal_example()
